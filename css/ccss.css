@@ -1,0 +1,18 @@
+#demo2 li a {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    background-color: #f6f6f68f;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+}
+
+.box {
+    background-color: rgba(7, 0, 0, 0.747);
+}
+
+.subtitle {
+    color: white;
+}

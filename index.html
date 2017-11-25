@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>YWC</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
+    <link rel="stylesheet" href="css/ccss.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="api/index.js"></script>
+    <script src="js/search.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="section">
+            <h1><a class="title is-1" href="#">Young WebMaster Camp</a></h1>
+        </div>
+
+        <br>
+        <div class="columns">
+            <div class="column">
+                <div class="box" onclick="fetchDataUrl('design')">
+                    <center>
+                        <figure class="image is-128x128">
+                            <img src="img/design.png">
+                        </figure>
+                        <h4 class="subtitle is-4" id="g">
+                            Design</h4>
+                </div>
+                </center>
+            </div>
+            <div class="column">
+                <div class="box" onclick="fetchDataUrl('programming')">
+                    <center>
+                        <figure class="image is-128x128">
+                            <img src="img/programming.png">
+                        </figure>
+                        <h4 class="subtitle is-4">
+                            Programming</h4>
+                </div>
+                </center>
+            </div>
+            <div class="column">
+                <div class="box" onclick="fetchDataUrl('marketing')">
+                    <center>
+                        <figure class="image is-128x128">
+                            <img src="img/marketing.png">
+                        </figure>
+                        <h4 class="subtitle is-4">
+                            Marketing</h4>
+                </div>
+                </center>
+            </div>
+            <div class="column">
+                <div class="box" onclick="fetchDataUrl('content')">
+                    <center>
+                        <figure class="image is-128x128">
+                            <img src="img/content.png">
+                        </figure>
+                        <h4 class="subtitle is-4">
+                            Content</h4>
+                </div>
+                </center>
+            </div>
+
+        </div>
+        <div class="section">
+            <div class="field is-grouped">
+                <p class="control is-expanded">
+                    <input id="demo" class="input" type="text" placeholder="Find a your name" onkeyup="name2()">
+                </p>
+
+            </div>
+
+            <center>
+                <ul id="demo2">
+
+                </ul>
+            </center>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
